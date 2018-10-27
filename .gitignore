@@ -1,0 +1,3 @@
+xlj_Django/
+__pycache__/
+*.sqlite3
