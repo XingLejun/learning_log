@@ -1,7 +1,7 @@
 {% extends "learning_logs/base.html" %}
 {% load bootstrap3 %}
 {% block header %}
-    <h2>Log in to your account.</h2>
+    <h2>Log in to your account:</h2>
 {% endblock header %}
 
 {% block content %}
@@ -16,4 +16,4 @@
         <input type="hidden" name="next" value="{% url 'learning_logs:index' %}" />
     </form>
 
- {% endblock content %}
+{% endblock content %}
