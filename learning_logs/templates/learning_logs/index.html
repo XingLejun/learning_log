@@ -2,16 +2,15 @@
 
 {% block header %}
     <div class="jumbotron">
-        <h1>Track your learning.</h1>
+        <h1><a href="{% url 'users:register' %}">注册你的账户</a> ,记录从我开始！</h1>
     </div>
 {% endblock header %}
 
 {% block content %}
     <h2>
-    <a href="{% url 'users:register' %}">Register an account</a> to make your own Learning Log,and list the topics you're
-    learning about.
+	一个世界有你，一个世界没有你，让两者的不同最大化，就是你一生的意义！！！
     </h2>
     <h2>
-    Whenever you learn something new about a topic, make an entry summarizing what you've learned.
+	无需张扬，却备受瞩目；表现于外，更发自内涵；一个人不在于你拥有多少，而在于你懂的多少；人人都可以拥有，但唯有少数能真正做到！
     </h2>
 {% endblock content %}
